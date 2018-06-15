@@ -22,8 +22,8 @@ sudo systemctl start ssh
 # installing rdp server
 #
 # TODO alternative: use real vnc?
-sudo apt-get remove xrdp realvnc-vnc-server
-sudo apt-get install xrdp
+sudo apt-get -y remove xrdp realvnc-vnc-server
+sudo apt-get -y install xrdp
 
 # change hostname
 sudo hostname $NEWHOSTNAME
