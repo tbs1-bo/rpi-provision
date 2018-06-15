@@ -2,6 +2,10 @@
 
 Default script for setting up a Raspberry Pi.
 
-To start the script run
+To start the installation process, download the setup-file and run it:
 
-    $ curl -sSL https://github.com/tbs1-bo/rpi-provision/raw/master/setup.sh | bash
+    $ wget https://github.com/tbs1-bo/rpi-provision/raw/master/setup.sh
+    $ bash setup.sh
+
+If the installation was successful, the file can be removed.
+
