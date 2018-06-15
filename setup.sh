@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# exit on first error
+set -o errexit
+
 NUM=$RANDOM
 NEWHOSTNAME=rpi$NUM
 NEWPASSWORD=pi$NUM
