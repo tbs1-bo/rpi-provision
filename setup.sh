@@ -33,7 +33,7 @@ sudo apt-get -y install xrdp
 sudo hostname $NEWHOSTNAME
 
 # changing password of user pi
-echo "pi:$NEWHOSTNAME" | sudo chpasswd
+echo "pi:$NEWPASSWORD" | sudo chpasswd
 
 # rebooting
 sudo reboot
