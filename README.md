@@ -1,3 +1,5 @@
+# UPDATE: THE SCRIPT IS NO LONGER NEEDED AS PI IMAGER PROVIDES MOST OF THE FUNTIONALITY 
+
 # Raspberry Pi Provision
 
 Default script for setting up a Raspberry Pi.
